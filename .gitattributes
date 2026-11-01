@@ -1,0 +1,18 @@
+*.rvt binary
+*.rfa binary
+*.bcf binary
+*.png binary
+*.pdf binary
+*.ifc text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.svg text eol=lf
+*.dyn text eol=lf
+*.ids text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+# Revit writes shared parameter files as UTF-16 LE + CRLF; never convert them
+revit/cf_shared_parameters.txt binary

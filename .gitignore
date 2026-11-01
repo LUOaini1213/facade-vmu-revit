@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# numbered backups Revit leaves on every save, and its backup folders
+model/*.0???.rvt
+revit/families/*.0???.rfa
+model/Revit_temp/
+*_backup/
